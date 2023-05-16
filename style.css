@@ -20,7 +20,7 @@ span{
 .Title{
     background-color: var(--main-color);
     color: var(--text-color);
-    font-size: 40px ;
+    font-size: 45px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,24 @@ span{
 
 }
 
+.Title p{
+    animation: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+}
+
+
+@keyframes slide{
+    from{
+        transform: translateY(-200px);
+        
+    } 
+
+    to{
+        transition: translateY(0px);
+    }
+}
 
 .Main_Body{
     background-color: var(--secondary-color);
@@ -38,7 +56,7 @@ span{
 }
 
 .Main_Body p{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 15px;
     display: grid;
     grid-template-columns: 55% 45%  ;
