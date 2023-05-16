@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+    color: rgb(191, 155, 155);
+}
+
+:root{
+    --main-color: #132743;
+    --secondary-color: #407088; 
+    --text-color: white;
+    --input-color:#e7eaf6;
+    --placehold-color: #00204a;
+    
+}
+
+
+.Title{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+
+}
+
+
+.Main_Body{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    height: 30vw;
+}
+
+.Main_Body p{
+    font-size: 35px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 55% 45%  ;
+}
+
+.Main_Body ::placeholder{
+    color: var(--placehold-color) ;
+    font-size: 30px;
+}
+
+.Main_Body input{
+ background-color: var(--input-color);
+ height: 6vw;
+ width: 25vw;
+ border-radius: 5px;
+ border-color: var(--secondary-color);
+ border-width: 5px;
+ font-size: 40px;
+}
+
+.process{
+    display: flex;
+    margin-left: 5vw;
+}
+
+
+.result{
+    margin-left: 30vw;
+    background-color: var(--main-color);
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.result p{
+    font-size: 65px;
+    color: var(--text-color);
+}
+
+.Main_Body button{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    height: 5vw;
+    width: 10vw;
+    border-radius: 5px;
+    background-color: var(--placehold-color);
+    color: white;
+    align-items: center;
+    font-size: 40px;
+    box-shadow: 0 0 4rem #0ef;
+}
+
+.Main_Body button:hover{
+    cursor: pointer;
+}
+
+.random_num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: black;
+}
+
+
+.Footer{
+    background-color: var(--main-color);
+    height: 11.3vw;
+}
+
+.Footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+    color: var(--text-color);
+    font-size: 20px;
+
+}
